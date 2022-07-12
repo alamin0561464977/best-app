@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: brown;
+    color: #ffff;
+    padding: 20px 10px;
+}
