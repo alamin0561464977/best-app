@@ -77,3 +77,31 @@ body {
     margin: auto;
     border-radius: 20px;
 }
+
+/* Trusted */
+.Trusted {
+    height: 600px;
+    width: 85%;
+    margin: auto;
+}
+
+.Trusted p {
+    text-align: center;
+    border-bottom: 3px solid rgb(197, 91, 4);
+    width: 300px;
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(53, 53, 211);
+}
+
+.Trusted-img {
+    width: 95%;
+    margin: auto;
+}
+
+.Trusted img {
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+}
