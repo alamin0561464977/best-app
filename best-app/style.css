@@ -1,10 +1,79 @@
 body {
     margin: 0;
     padding: 0;
+    /* ============ */
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-    background-color: brown;
+.top-banar {
+    height: 600px;
+    width: 85%;
+    margin: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2022/04/21/06/11/waves-7146711_960_720.jpg);
+    display: flex;
+
+}
+
+.top-banar #div {
+    height: 400px;
+    width: 45%;
+    margin: auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 0 20px;
+
+}
+
+.top-banar div h1 {
+    font-size: 40px;
+    border-left: 8px solid rgb(3, 115, 134);
+    padding-left: 5px;
+    border-radius: 20px;
+    color: crimson;
+}
+
+.top-banar div p {
     color: #ffff;
-    padding: 20px 10px;
+}
+
+.Try-for-free {
+    background-color: crimson;
+    color: #ffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Try-for-free:hover {
+    background-color: rgb(139, 6, 33);
+}
+
+.Watch-free-demo {
+    background-color: #ffff;
+    color: crimson;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button-div {
+    display: flex;
+}
+
+.top-banar img {
+    width: 45%;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
 }
